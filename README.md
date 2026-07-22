@@ -25,8 +25,10 @@
 ## 🎥 Demonstration Videos
 
 ### 🌟 AeroKinesis v3.0 Dual-IMU Bimanual Flight Demo
+<a href="https://youtu.be/SGZxWcySrJk">
+  <img src="https://i9.ytimg.com/vi_webp/F4Wta6cei4A/mqdefault.webp?sqp=CNSahNMG&rs=AOn4CLBtjv3f1_qeKk5EdJhUt2NrWT3s1Q" alt="Click to watch video">
+</a>
 
-<video src="https://rr3---sn-qxaelnes.c.youtube.com/videoplayback?expire=1784773936&amp;ei=sAxhatfkHODs2roP4_Km0QU&amp;ip=146.196.36.238&amp;cp=X19XZWZ4cWotNU1EVElWTEM6QjloSHcxMEJEV0xFVkxkYURUOFpOMERTQ3Fxcm1OX0xSUmlwNGNBUzI2bA&amp;id=1785ad6ba71e8b80&amp;itag=18&amp;source=youtube&amp;requiressl=yes&amp;xpc=Egho2aDSNXoBAQ%3D%3D&amp;met=1784745136%2C&amp;mh=qw&amp;mm=32&amp;mn=sn-qxaelnes&amp;ms=su&amp;mv=m&amp;mvi=3&amp;pl=24&amp;rms=su%2Csu&amp;sc=yes&amp;susc=ytcp&amp;mime=video%2Fmp4&amp;vprv=1&amp;rqh=1&amp;ratebypass=yes&amp;dur=179.722&amp;lmt=1784744544589313&amp;mt=1784744682&amp;txp=6209224&amp;sparams=expire%2Cei%2Cip%2Ccp%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Csusc%2Cmime%2Cvprv%2Crqh%2Cratebypass%2Cdur%2Clmt&amp;sig=AE0s2JYwRQIgKcYplgoesytMXBwVQC0TTCtDYjYYmC9wOu4Yl_W5GNgCIQDigVMC1r1vXHRun8pLwgHeoSKHeHTk-st6ak3BkdHa3Q%3D%3D&amp;lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Csc&amp;lsig=APaTxxMwRQIhAPYPPedV_kqJBdLXn6ABvKsAnUfoz4xU4e31kg1iigU3AiBX28JOGr3ajJGIhVPGu35hJQmYmH59Lck8DedbpK1OSA%3D%3D"></video>
 
 > [!IMPORTANT]
 > **AeroKinesis v3.0** features **Onboard Sensor Fusion (Complementary Filter α=0.98)** and **Automatic Neutral Pose Calibration** directly on the ESP32. Upon powering on, keep both hands flat and still for **3 seconds** while the system auto-zeros offsets.
