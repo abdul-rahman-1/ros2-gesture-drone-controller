@@ -26,7 +26,7 @@
 
 ### 🌟 AeroKinesis v3.0 Dual-IMU Bimanual Flight Demo
 <a href="https://youtu.be/F4Wta6cei4A">
-  <img src="https://i9.ytimg.com/vi_webp/F4Wta6cei4A/mqdefault.webp?sqp=CNSahNMG&rs=AOn4CLBtjv3f1_qeKk5EdJhUt2NrWT3s1Q" width="50%" alt="Click to watch video">
+  <img src="https://i9.ytimg.com/vi_webp/F4Wta6cei4A/mqdefault.webp?sqp=CNSahNMG&rs=AOn4CLBtjv3f1_qeKk5EdJhUt2NrWT3s1Q" width="100%" alt="Click to watch video">
 </a>
 
 
