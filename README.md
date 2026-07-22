@@ -14,22 +14,23 @@
 
 | 🎛️ ESP32 Core Controller Board | 🎯 Right Hand Primary IMU (0x68) |
 |:---:|:---:|
-| ![ESP32 DevKit V1 Board](https://glistening-lebkuchen-c76833.netlify.app/Eap32.jpeg) | ![Right Hand MPU Sensor](https://glistening-lebkuchen-c76833.netlify.app/Right_hand_MPU.jpeg) |
+| ![ESP32 DevKit V1 Board](file:///home/user/ros2_ws/src/imu_serial_bridge/media/Eap32.jpeg) | ![Right Hand MPU Sensor](file:///home/user/ros2_ws/src/imu_serial_bridge/media/Right_hand_MPU.jpeg) |
 
 | 🔘 Tactile 4-Button Array | ✋ Left Hand Secondary IMU (0x69) |
 |:---:|:---:|
-| ![Right Hand Button Interface](https://glistening-lebkuchen-c76833.netlify.app/Right_Hand_Buttons.jpeg) | ![Left Hand MPU Sensor](https://glistening-lebkuchen-c76833.netlify.app/Left_Hand.jpeg) |
+| ![Right Hand Button Interface](file:///home/user/ros2_ws/src/imu_serial_bridge/media/Right_Hand_Buttons.jpeg) | ![Left Hand MPU Sensor](file:///home/user/ros2_ws/src/imu_serial_bridge/media/Left_Hand.jpeg) |
 
 ---
 
 ## 🎥 Demonstration Videos
 
 ### 🌟 AeroKinesis v3.0 Dual-IMU Bimanual Flight Demo
-![AeroKinesis V3.0 Dual-IMU Flight Demo](https://glistening-lebkuchen-c76833.netlify.app/v3.mp4)
 
-<video src="https://glistening-lebkuchen-c76833.netlify.app/v3.mp4" controls width="100%" poster="https://glistening-lebkuchen-c76833.netlify.app/Right_hand_MPU.jpeg">
-  Your browser does not support the video tag. <a href="https://glistening-lebkuchen-c76833.netlify.app/v3.mp4">Download v3.mp4</a>
-</video>
+[![AeroKinesis v3.0 Flight Demo](https://img.youtube.com/vi/SGZxWcySrJk/maxresdefault.jpg)](https://youtu.be/SGZxWcySrJk)
+
+> 🔗 **YouTube Link**: [https://youtu.be/SGZxWcySrJk](https://youtu.be/SGZxWcySrJk)
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/SGZxWcySrJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -297,11 +298,11 @@ imu_serial_bridge/
 * Added MAVLink automated takeoff climb guard and flight mode state machine.
 * **Demonstration Video**:
 
-![AeroKinesis V2.0 Demonstration Video](https://glistening-lebkuchen-c76833.netlify.app/v2.mp4)
+[![AeroKinesis v2.0 Demo](https://img.youtube.com/vi/8PXPISqjnEQ/maxresdefault.jpg)](https://youtu.be/8PXPISqjnEQ)
 
-<video src="https://glistening-lebkuchen-c76833.netlify.app/v2.mp4" controls width="100%" poster="https://glistening-lebkuchen-c76833.netlify.app/Right_Hand_Buttons.jpeg">
-  Your browser does not support the video tag. <a href="https://glistening-lebkuchen-c76833.netlify.app/v2.mp4">Download v2.mp4</a>
-</video>
+> 🔗 **YouTube Link**: [https://youtu.be/8PXPISqjnEQ](https://youtu.be/8PXPISqjnEQ)
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/8PXPISqjnEQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 🌟 Version 3.0 (Current Version) — Bimanual Dual-IMU Interface
 * Dual MPU9250/6500 IMU architecture (Right Hand at `0x68` + Left Hand at `0x69`).
@@ -310,11 +311,11 @@ imu_serial_bridge/
 * Full integration with Gazebo Iris Runway simulation and ArduPilot SITL.
 * **Demonstration Video**:
 
-![AeroKinesis V3.0 Demonstration Video](https://glistening-lebkuchen-c76833.netlify.app/v3.mp4)
+[![AeroKinesis v3.0 Flight Demo](https://img.youtube.com/vi/SGZxWcySrJk/maxresdefault.jpg)](https://youtu.be/SGZxWcySrJk)
 
-<video src="https://glistening-lebkuchen-c76833.netlify.app/v3.mp4" controls width="100%" poster="https://glistening-lebkuchen-c76833.netlify.app/Eap32.jpeg">
-  Your browser does not support the video tag. <a href="https://glistening-lebkuchen-c76833.netlify.app/v3.mp4">Download v3.mp4</a>
-</video>
+> 🔗 **YouTube Link**: [https://youtu.be/SGZxWcySrJk](https://youtu.be/SGZxWcySrJk)
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/SGZxWcySrJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
