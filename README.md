@@ -304,6 +304,8 @@ imu_serial_bridge/
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/8PXPISqjnEQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 ### 🌟 Version 3.0 (Current Version) — Bimanual Dual-IMU Interface
 * Dual MPU9250/6500 IMU architecture (Right Hand at `0x68` + Left Hand at `0x69`).
 * Full **4-Axis Flight Control** (Pitch, Roll, Throttle/Altitude, Yaw Turn).
