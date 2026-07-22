@@ -1,0 +1,74 @@
+# imu_serial_bridge — Node Parameters (v4 — MPU9250/6500 Migration)
+# =================================================================
+# Firmware has migrated from MPU6050 to MPU9250/6500 clone (WHO_AM_I=0x75).
+# Sensor fusion (complementary filter, alpha=0.98) and neutral calibration
+# are now performed ON the ESP32. This node consumes pre-fused pitch/roll angles.
+#
+# Load with:
+#   ros2 run imu_serial_bridge imu_node --ros-args --params-file config/params.yaml
+
+imu_serial_bridge:
+  ros__parameters:
+
+    # ── Serial port ──────────────────────────────────────────────────────
+    # Find with:  ls /dev/ttyUSB*
+    serial_port: "/dev/ttyUSB0"
+    baud_rate: 115200
+
+    # ── TF frame ──────────────────────────────────────────────────────────
+    frame_id: "imu_link"
+
+    # ── Nominal publish rate ──────────────────────────────────────────────
+    # Informational — actual rate controlled by ESP32 firmware (50 Hz).
+    publish_rate: 50.0
+
+    # ── MAVProxy / ArduPilot SITL ─────────────────────────────────────────
+    # pymavlink connection string. MAVProxy default output = udp:127.0.0.1:14550
+    mavproxy_address: "udp:127.0.0.1:14550"
+    mavproxy_enabled: true
+
+    # ── Takeoff altitude ──────────────────────────────────────────────────
+    # Metres AGL when the TAKEOFF button is pressed.
+    takeoff_altitude: 2.0
+
+    # ── Gesture Control ───────────────────────────────────────────────────
+    # Set gesture_enabled: false to disable hand-tilt → velocity mapping.
+    gesture_enabled: true
+
+    # Drone velocity in m/s per DEGREE of hand tilt.
+    velocity_gain: 0.000001
+
+    # Hard velocity clamp in m/s. Drone will never exceed this.
+    max_velocity: 2.0
+
+    # Dead zone in DEGREES. Tilts below this = hover (prevents drift).
+    # Firmware does not apply a dead zone — this is applied in Python only.
+    # Increase if the drone drifts when hand is meant to be flat.
+    dead_zone_deg: 5.0
+
+    # Yaw rate gain: rad/s per effective degree of left-hand roll.
+    # At roll2=20° -> eff=15° -> yaw_rate = 15 * 0.04 = 0.60 rad/s
+    # At roll2=30° -> eff=25° -> yaw_rate = 25 * 0.04 = 1.00 rad/s (clamped)
+    # Increase if yaw feels unresponsive. Decrease if too twitchy.
+    yaw_gain: 0.04
+
+    # Maximum yaw rate clamp (rad/s). 0.8 rad/s ≈ 46 °/s.
+    max_yaw_rate: 0.8
+
+    # filter_alpha: kept for API compatibility but unused in v4.
+    # Fusion is now handled by the firmware (alpha=0.98 fixed in ESP32).
+    filter_alpha: 0.96
+
+    # Rate at which velocity commands are sent to MAVProxy (Hz).
+    # ArduPilot requires continuous commands (stops after ~3 s silence).
+    cmd_rate_hz: 20.0
+
+    # ── Firmware / Hardware Info (informational, not read by node) ────────
+    # Chip:           MPU9250/6500 clone (WHO_AM_I = 0x75)
+    # Library:        MPU9250_WE (Wolfgang Ewald)
+    # Fusion:         Complementary filter alpha=0.98 (on ESP32)
+    # Accel range:    ±4 G
+    # Gyro range:     ±500 °/s (output in deg/s — converted to rad/s in node)
+    # Button debounce: 40 ms (hardware, ESP32) + 200 ms (Python lockout)
+    # IMU 1 (0x68):  AD0 → GND   — Right Hand (forward/back, left/right)
+    # IMU 2 (0x69):  AD0 → 3.3V  — Left Hand  (throttle, yaw)

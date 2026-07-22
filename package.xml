@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!--
+  package.xml — ROS2 Humble package manifest for imu_serial_bridge.
+
+  This package bridges MPU6050 IMU data from an ESP32 (USB serial / JSON)
+  to standard ROS2 sensor topics.
+
+  Maintainer: Hand-Gesture Drone Project
+-->
+<package format="3">
+  <name>imu_serial_bridge</name>
+  <version>1.0.0</version>
+  <description>
+    ROS2 Humble node that reads MPU6050 IMU data from an ESP32 over USB serial
+    (JSON protocol) and publishes it on /imu/raw_json, /imu/data_raw, and
+    /imu/temperature topics.  Designed for easy extension with orientation
+    filters, gesture recognition, and MAVROS / ArduPilot SITL integration.
+  </description>
+
+  <maintainer email="dev@gesture-drone.local">Gesture Drone Dev</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>builtin_interfaces</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+
+  <!-- Python runtime (not ROS packages — installed via pip / rosdep) -->
+  <!-- pyserial is listed here for documentation; install with:        -->
+  <!--   pip3 install pyserial                                         -->
+
+  <!-- Test dependencies -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
