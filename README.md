@@ -26,9 +26,9 @@
 
 ### 🌟 AeroKinesis v3.0 Dual-IMU Bimanual Flight Demo
 
-[![AeroKinesis v3.0 Flight Demo](https://img.youtube.com/vi/SGZxWcySrJk/maxresdefault.jpg)](https://youtu.be/SGZxWcySrJk)
+[![AeroKinesis v3.0 Flight Demo](https://img.youtube.com/vi/SGZxWcySrJk/maxresdefault.jpg)](https://youtu.be/F4Wta6cei4A)
 
-> 🔗 **YouTube Link**: [https://youtu.be/SGZxWcySrJk](https://youtu.be/SGZxWcySrJk)
+> 🔗 **YouTube Link**: [https://youtu.be/F4Wta6cei4A](https://youtu.be/F4Wta6cei4A)
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/SGZxWcySrJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -313,9 +313,9 @@ imu_serial_bridge/
 * Full integration with Gazebo Iris Runway simulation and ArduPilot SITL.
 * **Demonstration Video**:
 
-[![AeroKinesis v3.0 Flight Demo](https://img.youtube.com/vi/SGZxWcySrJk/maxresdefault.jpg)](https://youtu.be/SGZxWcySrJk)
+[![AeroKinesis v3.0 Flight Demo](https://img.youtube.com/vi/SGZxWcySrJk/maxresdefault.jpg)](https://youtu.be/F4Wta6cei4A)
 
-> 🔗 **YouTube Link**: [https://youtu.be/SGZxWcySrJk](https://youtu.be/SGZxWcySrJk)
+> 🔗 **YouTube Link**: [https://youtu.be/F4Wta6cei4A](https://youtu.be/F4Wta6cei4A)
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/SGZxWcySrJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
