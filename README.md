@@ -26,13 +26,11 @@
 
 ### 🌟 AeroKinesis v3.0 Dual-IMU Bimanual Flight Demo
 
-[![AeroKinesis v3.0 Flight Demo](https://img.youtube.com/vi/SGZxWcySrJk/maxresdefault.jpg)](https://youtu.be/F4Wta6cei4A)
-
-> 🔗 **YouTube Link**: [https://youtu.be/F4Wta6cei4A](https://youtu.be/F4Wta6cei4A)
+[![AeroKinesis v3.0 Flight Demo]
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/SGZxWcySrJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
+
 
 > [!IMPORTANT]
 > **AeroKinesis v3.0** features **Onboard Sensor Fusion (Complementary Filter α=0.98)** and **Automatic Neutral Pose Calibration** directly on the ESP32. Upon powering on, keep both hands flat and still for **3 seconds** while the system auto-zeros offsets.
