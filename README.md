@@ -14,11 +14,11 @@
 
 | 🎛️ ESP32 Core Controller Board | 🎯 Right Hand Primary IMU (0x68) |
 |:---:|:---:|
-| ![ESP32 DevKit V1 Board](file:///home/user/ros2_ws/src/imu_serial_bridge/media/Eap32.jpeg) | ![Right Hand MPU Sensor](file:///home/user/ros2_ws/src/imu_serial_bridge/media/Right_hand_MPU.jpeg) |
+| ![ESP32 DevKit V1 Board](https://glistening-lebkuchen-c76833.netlify.app/Eap32.jpeg) | ![Right Hand MPU Sensor](https://glistening-lebkuchen-c76833.netlify.app/Right_hand_MPU.jpeg) |
 
 | 🔘 Tactile 4-Button Array | ✋ Left Hand Secondary IMU (0x69) |
 |:---:|:---:|
-| ![Right Hand Button Interface](file:///home/user/ros2_ws/src/imu_serial_bridge/media/Right_Hand_Buttons.jpeg) | ![Left Hand MPU Sensor](file:///home/user/ros2_ws/src/imu_serial_bridge/media/Left_Hand.jpeg) |
+| ![Right Hand Button Interface](https://glistening-lebkuchen-c76833.netlify.app/Right_Hand_Buttons.jpeg) | ![Left Hand MPU Sensor](https://glistening-lebkuchen-c76833.netlify.app/Left_Hand.jpeg) |
 
 ---
 
